@@ -1,0 +1,34 @@
+{
+  "name": "discord-scraper",
+  "version": "1.0.0",
+  "description": "Scrape Discord Channels without hitting the Rate Limits",
+  "homepage": "https://github.com/shr1jan/Discord-Scraper",
+  "bugs": {
+    "url": "https://github.com/shr1jan/Discord-Scraper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shr1jan/Discord-Scraper.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev --parallel",
+    "dev:web": "turbo dev --filter=web",
+    "dev:backend": "turbo dev --filter=backend",
+    "start": "turbo start",
+    "lint": "turbo lint",
+    "type-check": "turbo type-check",
+    "clean": "turbo clean",
+    "install:all": "pnpm install"
+  },
+  "devDependencies": {
+    "turbo": "^2.2.3"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=18"
+  }
+}

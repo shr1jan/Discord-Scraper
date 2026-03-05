@@ -1,0 +1,36 @@
+{
+  "name": "web",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack -p 3000",
+    "scrape:batch": "node scripts/scrape-sequential.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "clean": "rimraf .next dist"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "framer-motion": "^12.35.0",
+    "highlight.js": "^11.11.1",
+    "marked": "^15.0.7",
+    "marked-highlight": "^2.2.1",
+    "next": "15.3.0-canary.15",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sass": "^1.85.0",
+    "server-only": "^0.0.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.8",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "15.3.0-canary.15",
+    "postcss": "^8.5.2",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.3"
+  }
+}
